@@ -44,5 +44,8 @@ Se incluyó, posterior a la realización del práctico, un archivo .ipynb con el
 
 Durante este práctico se realiza la predicción de arritmias cardíacas por medio de electrocardiogramas (ECG) de 12 canales y redes convolucionales en una dimensión. 
 Para ver si predicción multiclase con TensorFlow (TF) y Keras se creó una función que permite obtener clases de acuerdo a la cantidad de elementos mínima que debe tener una clase (tipo de arritmia) mínima para ser considerada válida.  
+
 La subcarpeta *data*  contiene un archivo llamado *samples.xlsx* contiene los metadatos de los pacientes, y contiene 20 archivos comprimidos con los ECG correspondientes.
-En este caso los datos y la arquitectura de la red fue obtenida de artículos diferentes. Dentro del archivo .ipynb se referencia la base de datos, y dentro de la carpeta se incluye el artículo donde bue obtenida la arquitectura. Con el fin de simplificar el ejercicio se realizó la predicción con sólo una parte de la arquitectura original (Modelo A).
+En este caso los datos y la arquitectura de la red fue obtenida de artículos diferentes. 
+
+Dentro del archivo .ipynb se referencia la base de datos, y dentro de la carpeta se incluye el artículo donde bue obtenida la arquitectura. Con el fin de simplificar el ejercicio se realizó la predicción con sólo una parte de la arquitectura original (Modelo A).
